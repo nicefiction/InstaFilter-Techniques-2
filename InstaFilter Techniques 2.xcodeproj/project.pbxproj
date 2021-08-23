@@ -13,6 +13,7 @@
 		09E6C69126D3A1D0002E5B15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E6C69026D3A1D0002E5B15 /* Preview Assets.xcassets */; };
 		09E6C69B26D3A4A7002E5B15 /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E6C69A26D3A4A7002E5B15 /* PropertyWrappers.swift */; };
 		09E6C69F26D3DDCD002E5B15 /* ShowingMultipleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E6C69E26D3DDCD002E5B15 /* ShowingMultipleOptions.swift */; };
+		09E6C6A326D4124F002E5B15 /* IntegratingCoreImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E6C6A226D4124F002E5B15 /* IntegratingCoreImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		09E6C69226D3A1D0002E5B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09E6C69A26D3A4A7002E5B15 /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
 		09E6C69E26D3DDCD002E5B15 /* ShowingMultipleOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingMultipleOptions.swift; sourceTree = "<group>"; };
+		09E6C6A226D4124F002E5B15 /* IntegratingCoreImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				09E6C68926D3A1CC002E5B15 /* InstaFilter_Techniques_2App.swift */,
 				09E6C69226D3A1D0002E5B15 /* Info.plist */,
 				09E6C69926D3A485002E5B15 /* Day 62 */,
+				09E6C6A126D40E24002E5B15 /* Day 63 */,
 				09E6C68B26D3A1CC002E5B15 /* ContentView.swift */,
 				09E6C68D26D3A1D0002E5B15 /* Assets.xcassets */,
 				09E6C68F26D3A1D0002E5B15 /* Preview Content */,
@@ -81,6 +84,14 @@
 				09E6C69E26D3DDCD002E5B15 /* ShowingMultipleOptions.swift */,
 			);
 			path = "Day 62";
+			sourceTree = "<group>";
+		};
+		09E6C6A126D40E24002E5B15 /* Day 63 */ = {
+			isa = PBXGroup;
+			children = (
+				09E6C6A226D4124F002E5B15 /* IntegratingCoreImage.swift */,
+			);
+			path = "Day 63";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 			files = (
 				09E6C69B26D3A4A7002E5B15 /* PropertyWrappers.swift in Sources */,
 				09E6C68C26D3A1CC002E5B15 /* ContentView.swift in Sources */,
+				09E6C6A326D4124F002E5B15 /* IntegratingCoreImage.swift in Sources */,
 				09E6C69F26D3DDCD002E5B15 /* ShowingMultipleOptions.swift in Sources */,
 				09E6C68A26D3A1CC002E5B15 /* InstaFilter_Techniques_2App.swift in Sources */,
 			);

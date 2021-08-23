@@ -11,6 +11,7 @@
 		09E6C68C26D3A1CC002E5B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E6C68B26D3A1CC002E5B15 /* ContentView.swift */; };
 		09E6C68E26D3A1D0002E5B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E6C68D26D3A1D0002E5B15 /* Assets.xcassets */; };
 		09E6C69126D3A1D0002E5B15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E6C69026D3A1D0002E5B15 /* Preview Assets.xcassets */; };
+		09E6C69B26D3A4A7002E5B15 /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E6C69A26D3A4A7002E5B15 /* PropertyWrappers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		09E6C68D26D3A1D0002E5B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09E6C69026D3A1D0002E5B15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09E6C69226D3A1D0002E5B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E6C69A26D3A4A7002E5B15 /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				09E6C68926D3A1CC002E5B15 /* InstaFilter_Techniques_2App.swift */,
+				09E6C69226D3A1D0002E5B15 /* Info.plist */,
+				09E6C69926D3A485002E5B15 /* Day 62 */,
 				09E6C68B26D3A1CC002E5B15 /* ContentView.swift */,
 				09E6C68D26D3A1D0002E5B15 /* Assets.xcassets */,
-				09E6C69226D3A1D0002E5B15 /* Info.plist */,
 				09E6C68F26D3A1D0002E5B15 /* Preview Content */,
 			);
 			path = "InstaFilter Techniques 2";
@@ -67,6 +70,14 @@
 				09E6C69026D3A1D0002E5B15 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09E6C69926D3A485002E5B15 /* Day 62 */ = {
+			isa = PBXGroup;
+			children = (
+				09E6C69A26D3A4A7002E5B15 /* PropertyWrappers.swift */,
+			);
+			path = "Day 62";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E6C69B26D3A4A7002E5B15 /* PropertyWrappers.swift in Sources */,
 				09E6C68C26D3A1CC002E5B15 /* ContentView.swift in Sources */,
 				09E6C68A26D3A1CC002E5B15 /* InstaFilter_Techniques_2App.swift in Sources */,
 			);
